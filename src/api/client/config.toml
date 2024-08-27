@@ -1,0 +1,4 @@
+api_base_url = "https://api.example.com"
+api_key = "your_api_key_here"
+timeout = 10
+retry_attempts = 3

@@ -1,0 +1,46 @@
+- **TypeScript Compilation (`tsc`)**: Compiles TypeScript code into JavaScript, ensuring type safety and leveraging advanced language features.
+- **Regular Expression Processing (`regex`)**: Facilitates pattern matching and text manipulation within your code.
+- **Code Minification (`minify`)**: Reduces the size of code by removing unnecessary characters, improving load times and performance.
+- **Bundling (`bundle`)**: Combines multiple files into a single file or set of files, reducing HTTP requests and enhancing performance.
+- **WebAssembly Transformation (`wasm transform`)**: Converts code into WebAssembly for high-performance execution in web environments.
+- **Linting (`lint`)**: Analyzes code for potential errors, style inconsistencies, and maintainability issues.
+- **Source Mapping (`sourcemap`)**: Generates maps between minified or compiled code and original source code for debugging purposes.
+- **Advanced Regular Expressions (`advanced regex`)**: Supports complex pattern matching and manipulation using features like lookaheads, lookbehinds, and named capture groups.
+- **Lighthouse Website Analysis (`lighthouse`)**: Analyzes your website for performance, accessibility, best practices, and SEO, providing actionable insights for improvement.
+- **Code Sandbox (`code sandbox`)**: Isolates and executes code in a controlled environment, allowing safe experimentation and testing without affecting the main system or codebase.
+- **Database Integration (`db`)**: Facilitates interaction with databases using SQL or NoSQL solutions, enabling persistent storage and retrieval of data.
+- **User Authentication (`auth`)**: Implements user authentication mechanisms such as token-based authentication, password hashing, and user validation.
+- **Server Integration (`server`)**: Enables integration with server-side components, including creating, managing, and deploying web servers, handling HTTP requests, and interacting with server-side databases and authentication systems.
+- **SEO Tools (`seo`)**: Enables SEO with server-side rendering and other while keeping it minimal and clean.
+- **GraphQL Support (`gql`)**: Enables GraphQL support for advanced REST API's and more.
+- **Logging (`logging`)**: Record events, errors, and user activity for debugging and monitoring.
+- **WebSockets (`websockets`)**: Support real-time, bidirectional communication between the server and client.
+- **Middleware (`middleware`)**: Prevents Spam, adds a layer of security and JWT tokens.
+- **Customizable Themes (`themes`)**: Allow dynamic styling and theming options.
+- **API Client (`api client`)**: Tools for making HTTP requests and handling responses from external APIs.
+- **Testing (`testing`)**: Adds a testing framework for JavaScript, HTML, CSS and TypeScript.
+- **Formatting (`formatter`)**: Formatter for HTML, CSS, JavaScript and TypeScript for better code maintainability.
+- **Builder (`build`)**: Build System for HTML, CSS, JavaScript and TypeScript integrated right into the framework.
+- **DNS Server (`dns`)**: DNS Server for domains, servers, and other SEO and SSR related tasks.
+- **API Support (`api`)**: Build Client and Server API's with Rust, for the web.
+- **Hot Reload (`hot reload`)**: A hot reload system for swift changes without any recompilation.
+- **Caching (`cache`)**: Store frequently accessed data to speed up response times.
+- **Dependency Management (`dependencies`)**: Manage and update project dependencies.
+- **Documentation Generator (`docgen`)**: Generate documentation based on comments in JavaScript and TypeScript files.
+- **Server-Side Rendering (`ssr`)**: Render pages on the server before sending them to the client for improved performance and SEO.
+- **Static Site Generation (`ssg`)**: Generate static HTML pages at build time for better performance and SEO.
+- **Containerization (`container`)**: Use Docker or similar technologies to package and deploy your application consistently across different environments.
+- **DOM Manipulation (`dom`)**: Allows you to manipulate DOM elements surgically with embedding.
+- **Kubernetes Orchestration (`k8s_orchestration`)**: Facilitates deployment, service discovery, and autoscaling of applications.
+- **Data Analysis and Real-Time Processing (`apache_arrow`)**: Enables efficient data analysis and real-time processing using Apache Arrow.
+- **Data Lakes (`data_lakes`)**: Supports scalable storage solutions with Apache Hadoop and Amazon S3.
+- **Machine Learning and AI (`ml_ai`)**: Provides advanced machine learning and AI capabilities with TensorFlow and PyTorch.
+- **Graph Databases (`graph_databases`)**: Offers graph database solutions using Neo4j and Amazon Neptune.
+- **CI/CD Integration (`ci_cd`)**: Automate the process of building, testing, and deploying applications, improving development efficiency and consistency.
+- **Socket.IO And WebSockets (`sockets`)**: Allow complex message passing with Rust and webservers trough frontend SDK's like Socket.IO and Rust libs like socketio.
+- **Multitask Processing (`tasks`)**: Allows for asynchronous tasks in the background with parralel processing.
+- **JavaScript Compilation (`jsc`)**: Easily and seamlessly compile JS based on some code you input.
+- **Virtual Dom (`vdom`)**: A virtual and simulated DOM that can manually update the real DOM nodes based on runtime.
+- **Content Delivery Network Integration (`cdn`)**: Integrate with CDNs to serve static assets like images, stylesheets, and scripts faster by caching them closer to users geographically.
+- **Micro Frontends (`micro_frontends`)**: Allow for building web applications as a composition of features owned by independent teams, enabling better scaling and modularization with WASM.
+- **Realtime Analytics (`analytics`)**: Allow for advanced analytics and monitoring with Apache Arrow and Rust's Chrono crate.

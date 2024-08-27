@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: noxium-deployment
+  labels:
+    app: noxium
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: noxium
+  template:
+    metadata:
+      labels:
+        app: noxium
+    spec:
+      containers:
+      - name: noxium
+        image: noxium:latest
+        ports:
+        - containerPort: 5500
+        env:
+        - name: RUST_LOG
+          value: "info"
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "500m"
+          limits:
+            memory: "512Mi"
+            cpu: "1"
+        volumeMounts:
+        - name: config-volume
+          mountPath: /etc/noxium
+      volumes:
+      - name: config-volume
+        configMap:
+          name: noxium-config
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: noxium-config
+data:
+  config.yaml: |
+    server:
+      address: "127.0.0.1:5500"

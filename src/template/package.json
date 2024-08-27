@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "render": "node render.js"
+  },
+  "dependencies": {
+    "pug": "^3.0.3"
+  }
+}

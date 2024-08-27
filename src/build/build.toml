@@ -1,0 +1,6 @@
+typescript = { input = "src/ts/**/*.ts", output = "dist/js" }
+javascript = { input = "dist/js/**/*.js", output = "dist/js" }
+css = { input = "src/css/**/*.css", output = "dist/css" }
+html = { input = "src/html/**/*.html", output = "dist/html" }
+images = { input = "src/images/**/*", output = "dist/images" }
+custom_commands = ["echo 'Build started'", "echo 'Build finished'"]

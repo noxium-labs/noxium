@@ -1,0 +1,26 @@
+# Query type definition
+type Query {
+    hello: String!
+    get_user(id: ID!): User!
+    list_users: [User!]!
+}
+
+# Mutation type definition
+type Mutation {
+    create_user(new_user: NewUser!): User!
+    update_user(id: ID!, new_name: String!): User!
+    delete_user(id: ID!): String!
+}
+
+# User type definition
+type User {
+    id: ID!
+    name: String!
+    age: Int!
+}
+
+# Input object for creating a new user
+input NewUser {
+    name: String!
+    age: Int!
+}
